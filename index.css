@@ -1,0 +1,98 @@
+:root {
+    --main-bg-color: #CDCDCDFF;
+    --main-div-color: #E9E9E9FF;
+    --main-span-color: #99D3DFFF;
+    --main-a-color: #99D3DFBB;
+    --transparent-color: #E9E9E9BB;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+
+div {
+    background-color: var(--main-div-color);
+    width: 80vw;
+    padding: 8px 8px;
+    margin: 4px auto;
+    border-radius: 6px;
+}
+
+span {
+    font-size: 15px;
+    padding: 4px;
+    background-color: var(--main-span-color);
+    border-radius: 6px;
+}
+
+#projects {
+    background-color: transparent;
+    padding: 0px 0px;
+}
+
+#projects a {
+    padding: 4px;
+    background-color: var(--main-a-color);
+    border-radius: 6px;
+}
+
+.segway {
+    padding: 1px 8px;
+    background-color: #88BBD6BB;
+}
+
+.segway h1 {
+    text-align: right;
+    font-size: 28px;
+}
+
+#header {
+    margin-top: 0px;
+}
+
+#footer {
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+}
+
+#footer span {
+    background-color: var(--main-a-color);
+    font-size: 16px;
+}
+
+#header h1 {
+    font-size: 30px;
+}
+
+#header h2 {
+    font-size: 20px;
+    color: #606060;
+    text-align: right;
+}
+
+#skills {
+    width: 75%;
+    padding: 0px;
+    padding-bottom: 1px;
+    margin: 0px auto;
+}
+
+.project {
+    width: 95%;
+    background-color: var(--transparent-color);
+}
+
+.project h1 {
+    font-size: 26px;
+}
+
+.project div {
+    width: 100%;
+    margin: 0px auto;
+    padding: 2px 0px;
+    background-color: transparent;
+}
