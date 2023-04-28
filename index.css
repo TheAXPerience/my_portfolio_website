@@ -17,18 +17,34 @@ a, u {
 
 body {
     font-size: 16px;
-    font-family: sans-serif;
-    background-color: var(--main-div-color);
+    font-family: monospace;
+    background-image: linear-gradient(var(--main-div-color), var(--main-bg-color), var(--main-bg-color), var(--main-span-color), var(--main-a-color), var(--main-a-color));
 }
 
 section {
+    overflow: auto;
     padding: 8px 8px;
+}
+
+#prime {
+    padding: 16px 32px;
+    min-height: 512px;
+    background-image: url(./assets/prime-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #prime h1 {
     font-size: 50px;
-    margin: 8px 0px;
+    margin: 450px 0px 8px 0px;
     padding: 0;
+}
+
+#prime h2 {
+    padding: 0;
+    margin: 8px 4px;
+    font-size: 20px;
+    color: #444444;
 }
 
 footer {
@@ -48,21 +64,33 @@ footer div {
 }
 
 #about-me {
-    background-color: var(--main-bg-color);
+    background-image: url("./assets/about_me_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 16px 10% 24px 10%;
 }
 
 #about-me h1 {
     font-size: 52px;
     margin: 0px;
+    margin-bottom: 100px;
 }
 
 #about-me h3 {
     font-size: 20px;
     margin: 0px;
     padding: 8px;
+}
+
+#skills p {
+    border: solid 1px white;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #000000aa;
 }
 
 .right {
@@ -83,7 +111,7 @@ span {
 }
 
 #projects {
-    background-color: var(--main-span-color);
+    /* background-color: var(--main-span-color); */
     padding: 4px 0px;
     overflow: auto;
 }
@@ -91,6 +119,7 @@ span {
 #projects h2 {
     padding: 8px;
     margin: 0;
+    margin-right: 10%;
     font-size: 52px;
 }
 
@@ -98,8 +127,9 @@ span {
     border-radius: 8px;
     border: solid 2px var(--main-a-color);
     background-color: var(--main-div-color);
+    width: 90%;
     padding: 10px;
-    margin: 4px 4px;
+    margin: 4px auto;
 }
 
 .project h1 {
