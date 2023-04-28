@@ -1,98 +1,126 @@
 :root {
     --main-bg-color: #CDCDCDFF;
     --main-div-color: #E9E9E9FF;
-    --main-span-color: #99D3DFFF;
-    --main-a-color: #99D3DFBB;
-    --transparent-color: #E9E9E9BB;
+    --main-span-color: #88BBD6FF;
+    --main-a-color: #99D3DFFF;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+a, u {
+    text-decoration: none;
 }
 
 body {
     font-size: 16px;
     font-family: sans-serif;
-    color: black;
-    background-color: var(--main-bg-color);
+    background-color: var(--main-div-color);
+}
+
+section {
+    padding: 8px 8px;
+}
+
+#prime h1 {
+    font-size: 50px;
+    margin: 8px 0px;
+    padding: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p, img {
+    padding: 0;
+    margin: 2px 2px;
+}
+
+footer div {
+    padding: 8px 0px;
+    background-color: var(--main-a-color);
     text-align: center;
 }
 
-div {
-    background-color: var(--main-div-color);
-    width: 80vw;
-    padding: 8px 8px;
-    margin: 4px auto;
-    border-radius: 6px;
+#about-me {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-me h1 {
+    font-size: 52px;
+    margin: 0px;
+}
+
+#about-me h3 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 8px;
+}
+
+.right {
+    text-align: right;
+}
+
+.middle {
+    text-align: center;
 }
 
 span {
-    font-size: 15px;
     padding: 4px;
-    background-color: var(--main-span-color);
-    border-radius: 6px;
+    color: black;
+    background-color: var(--main-a-color);
+    border-radius: 8px;
+    margin: 2px;
+    border: solid 1px var(--main-span-color);
 }
 
 #projects {
-    background-color: transparent;
-    padding: 0px 0px;
+    background-color: var(--main-span-color);
+    padding: 4px 0px;
+    overflow: auto;
 }
 
-#projects a {
-    padding: 4px;
-    background-color: var(--main-a-color);
-    border-radius: 6px;
-}
-
-.segway {
-    padding: 1px 8px;
-    background-color: #88BBD6BB;
-}
-
-.segway h1 {
-    text-align: right;
-    font-size: 28px;
-}
-
-#header {
-    margin-top: 0px;
-}
-
-#footer {
-    padding-bottom: 16px;
-    margin-bottom: 0px;
-}
-
-#footer span {
-    background-color: var(--main-a-color);
-    font-size: 16px;
-}
-
-#header h1 {
-    font-size: 30px;
-}
-
-#header h2 {
-    font-size: 20px;
-    color: #606060;
-    text-align: right;
-}
-
-#skills {
-    width: 75%;
-    padding: 0px;
-    padding-bottom: 1px;
-    margin: 0px auto;
+#projects h2 {
+    padding: 8px;
+    margin: 0;
+    font-size: 52px;
 }
 
 .project {
-    width: 95%;
-    background-color: var(--transparent-color);
+    border-radius: 8px;
+    border: solid 2px var(--main-a-color);
+    background-color: var(--main-div-color);
+    padding: 10px;
+    margin: 4px 4px;
 }
 
 .project h1 {
-    font-size: 26px;
+    font-size: 35px;
+    padding: 0;
+    margin: 8px 0px;
 }
 
-.project div {
-    width: 100%;
-    margin: 0px auto;
-    padding: 2px 0px;
-    background-color: transparent;
+.button {
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+.button a {
+    padding: 8px;
+    margin: 0px 4px;
+    border: solid 2px var(--main-a-color);
+    border-radius: 4px;
+}
+
+.button a:hover {
+    background-color: white;
 }

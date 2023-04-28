@@ -7,30 +7,33 @@
         <title>Alvin Xu's Portfolio</title>
     </head>
     <body>
-        <div id="header">
-            <h1>My name is Alvin Xu</h1>
-            <h2>Back-End Software Developer</h2>
-        </div>
-        <div class="segway"><h1>About Me...</h1></div>
-        <div id="about-me">
-            <p>Elevator Pitch goes here</p>
-            <div id="skills">
-                <p>Some of my skills include:</p>
-                <span>Java</span>
-                <span>C</span>
-                <span>C++</span>
-                <span>C#</span>
-                <span>Unity</span>
-                <span>Python</span>
-                <span>Django</span>
-                <span>Docker</span>
-                <span>PostgreSQL</span>
+        <section id="prime">
+            <h1 class="middle">My name is Alvin Xu</h1>
+        </section>
+        <section id="about-me">
+            <div>
+                <h1 class="right">ABOUT ME...</h1>
             </div>
-        </div>
-        <div class="segway"><h1>Projects</h1></div>
-        <div id="projects">
+            <div id="skills">
+                <p>Elevator Pitch goes here</p>
+                <h3 class="right">MY SKILLS</h3>
+                <div class="middle">
+                    <span>Java</span>
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>C#</span>
+                    <span>Unity</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                    <span>Docker</span>
+                    <span>PostgreSQL</span>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="right">PROJECTS</h2>
             <div class="project">
-                <h1>Sheep Savior</h1>
+                <h1 class="middle">Sheep Savior: A Game About Saving Sheep</h1>
                 <div>
                     <span>HaxeFlixel</span>
                 </div>
@@ -39,10 +42,12 @@
                     After multiple iterations in the span of three months, me and my partner, Alexey Beall,
                     refined and released a short web game, playable in the browser.
                 </p>
-                <a href="https://www.itch.io/">Click here to play!</a>
+                <div class="button">
+                    <a href="https://axp123.itch.io/sheep-savior">PLAY THE GAME</a>
+                </div>
             </div>
             <div class="project">
-                <h1>Bagel's Picross House Tour</h1>
+                <h1 class="middle">Bagel's Picross House Tour</h1>
                 <div>
                     <span>C#</span>
                     <span>Unity</span>
@@ -56,10 +61,12 @@
                     <a href="https://www.twitter.com/ProtonJon">ProtonJon</a>
                     and <a href="https://www.twitter.com/lucahjin">Lucahjin</a>.)
                 </p>
-                <a href="https://www.itch.io/">Chick here to play!</a>
+                <div class="button">
+                    <a href="https://apaperstar.itch.io/bagels-picross-house-tour">PLAY THE GAME</a>
+                </div>
             </div>
             <div class="project">
-                <h1>Pokemon Mystery Dungeon: Explorers of Sky Quiz</h1>
+                <h1 class="middle">Pokemon Mystery Dungeon: Explorers of Sky Quiz</h1>
                 <div>
                     <span>HTML</span>
                     <span>CSS</span>
@@ -73,11 +80,13 @@
                     The test itself originates from <i>Pokemon Mystery Dungeon: Explorers of Sky</i>,
                     however now includes a non-binary option.
                 </p>
-                <a href="https://www.github.com/">Click here to take the quiz!</a>
-                <a href="https://www.github.com/">Click here to view the GitHub repo!</a>
+                <div class="button">
+                    <a href="https://theaxperience.github.io/index.html">TAKE THE QUIZ</a>
+                    <a href="https://github.com/TheAXPerience/MysteryDungeonQuiz">GITHUB REPO</a>
+                </div>
             </div>
             <div class="project">
-                <h1>Uno - in the terminal!</h1>
+                <h1 class="middle">Uno - in the terminal!</h1>
                 <div>
                     <span>Python</span>
                 </div>
@@ -87,10 +96,12 @@
                     Up to 6 people can play, the game automatically hides your hand at the end of each turn,
                     and it's color-coded too!
                 </p>
-                <a href="https://www.github.com/">Click here to view the GitHub repo!</a>
+                <div class="button">
+                    <a href="https://github.com/TheAXPerience/Uno">GITHUB REPO</a>
+                </div>
             </div>
             <div class="project">
-                <h1>Scrap Pages</h1>
+                <h1 class="middle">Scrap Pages</h1>
                 <div>
                     <span>Python</span>
                     <span>Django</span>
@@ -106,16 +117,21 @@
                     Deployed temporarily on Microsoft Azure, however images of its use can be found on
                     GitHub in the "azure_production" branch.
                 </p>
-                <a href="https://www.github.com/">Click here to view the GitHub repo!</a>
+                <div class="button">
+                    <a href="https://github.com/TheAXPerience/ScrapPages">GITHUB REPO</a>
+                </div>
             </div>
-        </div>
-        <div class="segway"><h1>Contact Me At...</h1></div>
-        <div id="footer">
-            <p>alvin3xu1@gmail.com</p>
-            <nav>
-                <span><a href="https://www.github.com/TheAXPerience">GitHub</a></span>
-                <span><a href="https://www.linkedin.com/in/alvin-xu-0a5477165/">LinkedIn</a></span>
-            </nav>
-        </div>
+        </section>
     </body>
+    <footer>
+        <div>
+            <p>Contact me at: <a href="">alvin3xu1@gmail.com</a></p>
+            <a href="https://www.github.com/TheAXPerience">
+                <img src="github_logo.png" width="30" height="30">
+            </a>
+            <a href="https://www.linkedin.com/in/alvin-xu-0a5477165/">
+                <img src="linkedin_logo.png" width="30" height="30">
+            </a>
+        </div>
+    </footer>
 </html>
